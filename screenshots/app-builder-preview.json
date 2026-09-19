@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "KAPELA",
+      "hasCanvas": false,
+      "bodyTextLen": 1080,
+      "bodyTextHash": "02b1d0b0b2393e548877bd41da5b25c8a0efce3ee290d26ef7247ed33cb3500c",
+      "bodyTextPrefix": "KAPELA KNJIGA NASTUPA Nova svirka OVAJ MJESEC 4 svirki u kalenda",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "KAPELA",
+      "hasCanvas": false,
+      "bodyTextLen": 1073,
+      "bodyTextHash": "884fba498495b0e2a7a7053ea38f44e2961127c3b36a9a1ce0ad90821718d900",
+      "bodyTextPrefix": "KAPELA KNJIGA NASTUPA Nova OVAJ MJESEC 4 svirki u kalendaru POTV",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
