@@ -1,6 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { GROK_PROVIDERS, authClient, authEnabled, signIn } from "@/lib/auth/client";
 import { useCurrentUserState } from "@/lib/auth/use-current-user";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -124,19 +123,7 @@ function Login() {
               </Button>
             </form>
 
-            <p className="mt-6 text-center text-xs text-muted-foreground">ili nastavi s</p>
-            <div className="mt-3 grid gap-2">
-              {GROK_PROVIDERS.map((p) => (
-                <Button
-                  key={p.providerId}
-                  type="button"
-                  variant="secondary"
-                  onClick={() => void signIn(p.providerId, { callbackURL: "/" })}
-                >
-                  {p.label}
-                </Button>
-              ))}
-            </div>
+           
             <p className="mt-6 text-center text-xs leading-relaxed text-muted-foreground">
               Nakon registracije pristup dobiješ samo ako te admin doda na popis.
               Prva osoba koja se prijavi postaje admin benda.
